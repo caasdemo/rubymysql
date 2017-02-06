@@ -97,3 +97,599 @@ App 7036 stdout:
 [ 2016-12-30 12:58:21.9395 6966/7fb213bd0700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
 [ 2016-12-30 12:58:21.9397 6966/7fb21a3dd7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
 [ 2016-12-30 12:58:22.1665 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-01-02 15:30:34.8529 5939/7fc53d8cc7c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-01-02 15:30:34.9090 5942/7f1a461037c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-01-02 15:30:34.9105 5942/7f1a461037c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-01-02 15:30:34.9410 5942/7f1a461037c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 5942
+[ 2017-01-02 15:30:34.9565 5948/7f14b0ae47c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-01-02 15:30:34.9602 5948/7f14b0ae47c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 5948
+App 5982 stdout: 
+App 5998 stdout: 
+App 6005 stdout: 
+[ 2017-01-02 15:30:42.3968 5942/7f1a46035700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 6012 stdout: 
+App 6020 stdout: 
+App 6038 stdout: 
+App 6046 stdout: 
+
+[ 2017-01-02 15:31:16.7795 5942/7f1a3b7fe700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-02 15:31:16.7796 5942/7f1a461037c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-02 15:31:16.7797 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 5998, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7797 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6005, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7797 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6012, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7798 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6020, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7799 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6038, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7799 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6046, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7800 5942/7f1a3affd700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-01-02 15:31:16.7800 5942/7f1a3affd700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-01-02 15:31:16.7804 5942/7f1a3b7fe700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-01-02 15:31:16.7805 5942/7f1a3b7fe700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-01-02 15:31:16.7806 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 5998, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7807 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6005, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7807 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6012, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7807 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6020, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7807 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6038, application /root/sample_ruby_project/public (development)
+[ 2017-01-02 15:31:16.7807 5942/7f1a461037c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6046, application /root/sample_ruby_project/public (development)
+
+[ 2017-01-02 15:31:16.7860 5948/7f14aa2d7700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-02 15:31:16.7861 5948/7f14b0ae47c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-02 15:31:16.7863 5948/7f14aa2d7700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-01-02 15:31:16.7861 5948/7f14a9ad6700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-01-02 15:31:16.8124 5948/7f14a9ad6700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-01-02 15:31:16.8132 5948/7f14b0ae47c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-01-02 15:31:17.1285 5942/7f1a461037c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-01-03 11:28:53.6647 15315/7f9b3f1ed7c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-01-03 11:28:53.6698 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-01-03 11:28:53.6699 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-01-03 11:28:53.6728 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 15318
+[ 2017-01-03 11:28:53.6799 15324/7f4c96e2d7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-01-03 11:28:53.6805 15324/7f4c96e2d7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 15324
+App 15358 stdout: 
+[ 2017-01-03 11:28:56.4889 15318/7f1d2309c700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 15374 stdout: 
+App 15358 stderr: Warning. Error encountered while saving cache /root/ruby_with_mysql/tmp/cache/sass/2d767cc4e6fae1b3cf27ce0298ce18d32335c91f/articles.css.scssc: can't dump anonymous class #<Class:0x0055706c026a48>
+App 15385 stdout: 
+
+[ 2017-01-03 11:30:01.5969 15318/7f1d1c997700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:30:01.5969 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:30:01.5969 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 15374, application /root/ruby_with_mysql/public (development)
+[ 2017-01-03 11:30:01.5970 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 15385, application /root/ruby_with_mysql/public (development)
+[ 2017-01-03 11:30:01.5970 15318/7f1d17fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:30:01.5970 15318/7f1d17fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-01-03 11:30:01.5971 15318/7f1d1c997700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-01-03 11:30:01.5972 15318/7f1d1c997700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-01-03 11:30:01.5972 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 15374, application /root/ruby_with_mysql/public (development)
+[ 2017-01-03 11:30:01.5972 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 15385, application /root/ruby_with_mysql/public (development)
+
+[ 2017-01-03 11:30:01.6026 15324/7f4c90620700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:30:01.6027 15324/7f4c96e2d7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:30:01.6027 15324/7f4c8fe1f700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:30:01.6027 15324/7f4c8fe1f700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-01-03 11:30:01.6028 15324/7f4c90620700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-01-03 11:30:01.6029 15324/7f4c96e2d7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-01-03 11:30:01.8262 15318/7f1d2316a7c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-01-03 15:55:28.2706 15500/7fa5995277c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-01-03 15:55:28.2755 15503/7ff5e01f57c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-01-03 15:55:28.2756 15503/7ff5e01f57c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-01-03 15:55:28.2775 15503/7ff5e01f57c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 15503
+[ 2017-01-03 15:55:28.2825 15509/7f3f134e67c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-01-03 15:55:28.2830 15509/7f3f134e67c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 15509
+App 15543 stdout: 
+App 15559 stdout: 
+[ 2017-01-03 15:55:35.5571 15503/7ff5e0127700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+
+[ 2017-01-03 15:56:07.9168 15503/7ff5d9a22700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 15:56:07.9168 15503/7ff5e01f57c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 15:56:07.9169 15503/7ff5e01f57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 15559, application /root/ruby_with_mysql/public (production)
+[ 2017-01-03 15:56:07.9169 15503/7ff5d9221700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-01-03 15:56:07.9169 15503/7ff5d9221700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-01-03 15:56:07.9170 15503/7ff5d9a22700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-01-03 15:56:07.9170 15503/7ff5d9a22700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-01-03 15:56:07.9170 15503/7ff5e01f57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 15559, application /root/ruby_with_mysql/public (production)
+
+[ 2017-01-03 15:56:07.9218 15509/7f3f0ccd9700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 15:56:07.9218 15509/7f3f134e67c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 15:56:07.9218 15509/7f3f07fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-01-03 15:56:07.9218 15509/7f3f07fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-01-03 15:56:07.9219 15509/7f3f0ccd9700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-01-03 15:56:07.9221 15509/7f3f134e67c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-01-03 15:56:08.1452 15503/7ff5e01f57c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-02 12:47:35.5984 2279/7faae64857c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-02 12:47:35.6089 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-02 12:47:35.6090 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-02 12:47:35.6110 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2282
+[ 2017-02-02 12:47:35.6161 2288/7fc47c68b7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-02 12:47:35.6165 2288/7fc47c68b7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2288
+App 2322 stdout: 
+[ 2017-02-02 12:47:38.4515 2282/7fa9478ea700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 2338 stdout: 
+App 2352 stdout: 
+
+[ 2017-02-02 12:47:55.3389 2282/7fa9411e5700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-02 12:47:55.3390 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-02 12:47:55.3390 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2338, application /root/ruby_with_mysql/public (development)
+[ 2017-02-02 12:47:55.3391 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2352, application /root/ruby_with_mysql/public (development)
+[ 2017-02-02 12:47:55.3394 2282/7fa9409e4700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-02 12:47:55.3394 2282/7fa9409e4700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-02 12:47:55.3398 2282/7fa9411e5700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-02 12:47:55.3399 2282/7fa9411e5700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-02-02 12:47:55.3400 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2338, application /root/ruby_with_mysql/public (development)
+[ 2017-02-02 12:47:55.3401 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2352, application /root/ruby_with_mysql/public (development)
+
+[ 2017-02-02 12:47:55.3464 2288/7fc475e7e700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-02 12:47:55.3465 2288/7fc47c68b7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-02 12:47:55.3466 2288/7fc47567d700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-02 12:47:55.3466 2288/7fc47567d700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-02 12:47:55.3472 2288/7fc475e7e700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-02 12:47:55.3476 2288/7fc47c68b7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-02 12:47:55.5740 2282/7fa9479b87c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-03 14:11:00.1606 13300/7f88972277c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-03 14:11:00.1814 13303/7f561e8367c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-03 14:11:00.1815 13303/7f561e8367c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-03 14:11:00.1837 13303/7f561e8367c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 13303
+[ 2017-02-03 14:11:00.1890 13309/7f2ea09157c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-03 14:11:00.1895 13309/7f2ea09157c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 13309
+App 13343 stdout: 
+[ 2017-02-03 14:11:03.4109 13303/7f561e768700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 13360 stdout: 
+[ 2017-02-03 14:11:03.6663 13303/7f56163ce700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /root/ruby_with_mysql: An error occured while starting the web application.
+  Error ID: 26671175
+  Error details saved to: /tmp/passenger-error-2oNoHh.html
+  Message from application: Please install the mysql2 adapter: `gem install activerecord-mysql2-adapter` (can't activate mysql2 (~> 0.3.10), already activated mysql2-0.4.5. Make sure all dependencies are added to Gemfile.) (LoadError)
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/mysql2_adapter.rb:3:in `<top (required)>'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `block in require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:42:in `each'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/base.rb:720:in `<top (required)>'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `block in require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `require'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:382:in `before_handling_requests'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:134:in `negotiate_spawn_command'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2017-02-03 14:11:03.6674 13303/7f5618063700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 26671175. Please see earlier logs for details about the error.
+
+[ 2017-02-03 14:11:32.5437 13303/7f5618063700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 14:11:32.5437 13303/7f561e8367c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 14:11:32.5437 13303/7f5617862700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-03 14:11:32.5437 13303/7f5617862700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-03 14:11:32.5438 13303/7f5618063700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-03 14:11:32.5438 13303/7f5618063700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-02-03 14:11:32.5480 13309/7f2e9a108700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 14:11:32.5481 13309/7f2ea09157c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 14:11:32.5481 13309/7f2e99907700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-03 14:11:32.5481 13309/7f2e99907700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-03 14:11:32.5483 13309/7f2e9a108700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-03 14:11:32.5483 13309/7f2ea09157c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-03 14:11:32.5786 13303/7f561e8367c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-03 14:11:48.9018 13473/7f96e74907c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-03 14:11:48.9068 13476/7f3a693d77c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-03 14:11:48.9069 13476/7f3a693d77c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-03 14:11:48.9089 13476/7f3a693d77c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 13476
+[ 2017-02-03 14:11:48.9144 13482/7fdde2a517c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-03 14:11:48.9149 13482/7fdde2a517c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 13482
+App 13516 stdout: 
+[ 2017-02-03 14:11:51.8804 13476/7f3a69309700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 13533 stdout: 
+[ 2017-02-03 14:11:52.2150 13476/7f3a60f6f700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /root/ruby_with_mysql: An error occured while starting the web application.
+  Error ID: 1d12f428
+  Error details saved to: /tmp/passenger-error-vJJfag.html
+  Message from application: Please install the mysql2 adapter: `gem install activerecord-mysql2-adapter` (can't activate mysql2 (~> 0.3.10), already activated mysql2-0.4.5. Make sure all dependencies are added to Gemfile.) (LoadError)
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/mysql2_adapter.rb:3:in `<top (required)>'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `block in require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:42:in `each'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-3.2.22.2/lib/active_record/base.rb:720:in `<top (required)>'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `block in require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activesupport-3.2.22.2/lib/active_support/dependencies.rb:251:in `require'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:382:in `before_handling_requests'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:134:in `negotiate_spawn_command'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2017-02-03 14:11:52.2159 13476/7f3a62c04700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 1d12f428. Please see earlier logs for details about the error.
+
+[ 2017-02-03 14:12:08.5281 13476/7f3a62c04700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 14:12:08.5281 13476/7f3a693d77c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 14:12:08.5281 13476/7f3a62403700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-03 14:12:08.5281 13476/7f3a62403700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-03 14:12:08.5282 13476/7f3a62c04700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-03 14:12:08.5282 13476/7f3a62c04700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-02-03 14:12:08.5320 13482/7fdddc244700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 14:12:08.5320 13482/7fdde2a517c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 14:12:08.5321 13482/7fdddba43700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-03 14:12:08.5321 13482/7fdddba43700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-03 14:12:08.5322 13482/7fdddc244700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-03 14:12:08.5323 13482/7fdde2a517c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-03 14:12:08.5621 13476/7f3a693d77c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-03 14:12:36.1647 13642/7fafdbbe77c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-03 14:12:36.1698 13645/7fb89206e7c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-03 14:12:36.1699 13645/7fb89206e7c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-03 14:12:36.1719 13645/7fb89206e7c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 13645
+[ 2017-02-03 14:12:36.1771 13651/7f6a93d387c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-03 14:12:36.1776 13651/7f6a93d387c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 13651
+App 13685 stdout: 
+App 13685 stdout: 
+[ 2017-02-03 14:12:38.6043 13645/7fb889c06700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /root/ruby_with_mysql: An error occurred while starting up the preloader.
+  Error ID: b7a74cb1
+  Error details saved to: /tmp/passenger-error-VK76bi.html
+  Message from application: <p>It looks like Bundler could not find a gem. Maybe you didn't install all the gems that this application needs. To install your gems, please run:</p>
+
+  <pre class="commands">bundle install</pre>
+
+<p>If that didn't work, then the problem is probably caused by your application being run under a different environment than it's supposed to. Please check the following:</p>
+
+<ol>
+  <li>Is this app supposed to be run as the <code>root</code> user?</li>
+  <li>Is this app being run on the correct Ruby interpreter? Below you will
+      see which Ruby interpreter Phusion Passenger attempted to use.</li>
+</ol>
+
+<p>-------- The exception is as follows: -------</p>
+Your bundle is locked to mysql2 (0.4.5), but that version could not be found in any of the sources listed in your Gemfile. If you haven&#39;t changed sources, that means the author of mysql2 (0.4.5) has removed it. You&#39;ll need to update your bundle to a different version of mysql2 (0.4.5) that hasn&#39;t been removed in order to install. (Bundler::GemNotFound)
+<pre>  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:179:in `rescue in specs&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:173:in `specs&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:233:in `specs_for&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:222:in `requested_specs&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:118:in `block in definition_method&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:19:in `setup&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler.rb:99:in `setup&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/setup.rb:20:in `&lt;top (required)&gt;&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require&#39;
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:430:in `activate_gem&#39;
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:297:in `block in run_load_path_setup_code&#39;
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:435:in `running_bundler&#39;
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:296:in `run_load_path_setup_code&#39;
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:100:in `preload_app&#39;
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `&lt;module:App&gt;&#39;
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `&lt;module:PhusionPassenger&gt;&#39;
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `&lt;main&gt;&#39;</pre>
+
+
+[ 2017-02-03 14:12:38.6090 13645/7fb88b89b700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is b7a74cb1. Please see earlier logs for details about the error.
+[ 2017-02-03 14:12:39.1615 13645/7fb891fa0700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+
+[ 2017-02-03 14:12:53.3361 13645/7fb88b89b700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 14:12:53.3361 13645/7fb89206e7c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 14:12:53.3362 13645/7fb88b09a700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-03 14:12:53.3362 13645/7fb88b09a700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-03 14:12:53.3363 13645/7fb88b89b700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-03 14:12:53.3363 13645/7fb88b89b700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-02-03 14:12:53.3364 13651/7f6a8d52b700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 14:12:53.3364 13651/7f6a93d387c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 14:12:53.3365 13651/7f6a8cd2a700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-03 14:12:53.3365 13651/7f6a8cd2a700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-03 14:12:53.3366 13651/7f6a8d52b700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-03 14:12:53.3367 13651/7f6a93d387c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-03 14:12:53.3587 13645/7fb89206e7c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-03 14:13:19.4220 13744/7f2e375ba7c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-03 14:13:19.4273 13747/7f74d95657c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-03 14:13:19.4274 13747/7f74d95657c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-03 14:13:19.4294 13747/7f74d95657c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 13747
+[ 2017-02-03 14:13:19.4350 13753/7fea0c5ec7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-03 14:13:19.4355 13753/7fea0c5ec7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 13753
+App 13787 stdout: 
+App 13787 stdout: 
+[ 2017-02-03 14:13:21.7925 13747/7f74d10fd700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /root/ruby_with_mysql: An error occurred while starting up the preloader.
+  Error ID: 26f5fb1f
+  Error details saved to: /tmp/passenger-error-qckJ83.html
+  Message from application: 
+[!] There was an error parsing `Gemfile`: unexpected fraction part after numeric literal - gem 'mysql2' 0.3.12
+                ^
+/root/ruby_with_mysql/Gemfile:10: syntax error, unexpected tFLOAT, expecting end-of-input. Bundler cannot continue.
+
+ #  from /root/ruby_with_mysql/Gemfile:10
+ #  -------------------------------------------
+ #  
+ >  gem 'mysql2' 0.3.12
+ #  
+ #  -------------------------------------------
+ (Bundler::Dsl::DSLError)
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/dsl.rb:41:in `instance_eval'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/dsl.rb:41:in `eval_gemfile'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/dsl.rb:11:in `evaluate'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:33:in `build'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler.rb:127:in `definition'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler.rb:93:in `setup'
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/setup.rb:20:in `<top (required)>'
+  /root/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+  /root/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:430:in `activate_gem'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:297:in `block in run_load_path_setup_code'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:435:in `running_bundler'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:296:in `run_load_path_setup_code'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:100:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2017-02-03 14:13:21.7962 13747/7f74d2d92700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 26f5fb1f. Please see earlier logs for details about the error.
+[ 2017-02-03 14:13:22.4167 13747/7f74d9497700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+
+[ 2017-02-03 14:13:24.6390 13747/7f74d2d92700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 14:13:24.6390 13747/7f74d95657c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 14:13:24.6391 13747/7f74d2591700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-03 14:13:24.6391 13747/7f74d2591700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-03 14:13:24.6392 13747/7f74d2d92700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-03 14:13:24.6392 13747/7f74d2d92700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-02-03 14:13:24.6393 13753/7fea05ddf700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 14:13:24.6393 13753/7fea0c5ec7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 14:13:24.6393 13753/7fea055de700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-03 14:13:24.6393 13753/7fea055de700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-03 14:13:24.6395 13753/7fea05ddf700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-03 14:13:24.6395 13753/7fea0c5ec7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-03 14:13:24.6607 13747/7f74d95657c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-03 17:18:46.7318 15360/7f1a42f587c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-03 17:18:46.7372 15363/7f32a94cd7c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-03 17:18:46.7373 15363/7f32a94cd7c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-03 17:18:46.7394 15363/7f32a94cd7c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 15363
+[ 2017-02-03 17:18:46.7447 15369/7fe3d57857c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-03 17:18:46.7452 15369/7fe3d57857c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 15369
+App 15403 stdout: 
+App 15403 stdout: 
+[ 2017-02-03 17:18:49.1720 15363/7f32a1065700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /root/ruby_with_mysql: An error occurred while starting up the preloader.
+  Error ID: 16b1185a
+  Error details saved to: /tmp/passenger-error-piYocI.html
+  Message from application: <p>It looks like Bundler could not find a gem. Maybe you didn't install all the gems that this application needs. To install your gems, please run:</p>
+
+  <pre class="commands">bundle install</pre>
+
+<p>If that didn't work, then the problem is probably caused by your application being run under a different environment than it's supposed to. Please check the following:</p>
+
+<ol>
+  <li>Is this app supposed to be run as the <code>root</code> user?</li>
+  <li>Is this app being run on the correct Ruby interpreter? Below you will
+      see which Ruby interpreter Phusion Passenger attempted to use.</li>
+</ol>
+
+<p>-------- The exception is as follows: -------</p>
+Could not find gem &#39;mysql2 (= 0.3.12)&#39; in any of the gem sources listed in your Gemfile or available on this machine. (Bundler::GemNotFound)
+<pre>  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/resolver.rb:366:in `block in verify_gemfile_dependencies_are_found!&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/resolver.rb:341:in `each&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/resolver.rb:341:in `verify_gemfile_dependencies_are_found!&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/resolver.rb:199:in `start&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/resolver.rb:181:in `resolve&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:250:in `resolve&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:174:in `specs&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:233:in `specs_for&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:222:in `requested_specs&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:118:in `block in definition_method&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:19:in `setup&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler.rb:99:in `setup&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/setup.rb:20:in `&lt;top (required)&gt;&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require&#39;
+  /root/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require&#39;
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:430:in `activate_gem&#39;
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:297:in `block in run_load_path_setup_code&#39;
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:435:in `running_bundler&#39;
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/loader_shared_helpers.rb:296:in `run_load_path_setup_code&#39;
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:100:in `preload_app&#39;
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `&lt;module:App&gt;&#39;
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `&lt;module:PhusionPassenger&gt;&#39;
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `&lt;main&gt;&#39;</pre>
+
+
+[ 2017-02-03 17:18:49.1820 15363/7f32a2cfa700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 16b1185a. Please see earlier logs for details about the error.
+[ 2017-02-03 17:18:50.1026 15363/7f32a93ff700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+
+[ 2017-02-03 17:19:07.1149 15363/7f32a2cfa700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 17:19:07.1149 15363/7f32a94cd7c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 17:19:07.1150 15363/7f32a24f9700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-03 17:19:07.1150 15363/7f32a24f9700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-03 17:19:07.1151 15363/7f32a2cfa700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-03 17:19:07.1151 15363/7f32a2cfa700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-02-03 17:19:07.1153 15369/7fe3cef78700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 17:19:07.1153 15369/7fe3d57857c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 17:19:07.1153 15369/7fe3ce777700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-03 17:19:07.1153 15369/7fe3ce777700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-03 17:19:07.1154 15369/7fe3cef78700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-03 17:19:07.1155 15369/7fe3d57857c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-03 17:19:07.1372 15363/7f32a94cd7c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-03 17:22:32.4821 19388/7f63176ba7c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-03 17:22:32.4871 19391/7ff1a5f0e7c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-03 17:22:32.4872 19391/7ff1a5f0e7c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-03 17:22:32.4892 19391/7ff1a5f0e7c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 19391
+[ 2017-02-03 17:22:32.4946 19397/7fbefecdf7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-03 17:22:32.4950 19397/7fbefecdf7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 19397
+App 19431 stdout: 
+[ 2017-02-03 17:22:35.4555 19391/7ff1a5e40700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 19448 stdout: 
+
+[ 2017-02-03 17:22:56.5020 19391/7ff19f73b700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 17:22:56.5020 19391/7ff1a5f0e7c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 17:22:56.5020 19391/7ff1a5f0e7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 19448, application /root/ruby_with_mysql/public (development)
+[ 2017-02-03 17:22:56.5021 19391/7ff19ef3a700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-03 17:22:56.5021 19391/7ff19ef3a700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-03 17:22:56.5022 19391/7ff19f73b700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-03 17:22:56.5022 19391/7ff19f73b700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-02-03 17:22:56.5023 19391/7ff1a5f0e7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 19448, application /root/ruby_with_mysql/public (development)
+
+[ 2017-02-03 17:22:56.5062 19397/7fbef84d2700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-03 17:22:56.5062 19397/7fbefecdf7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-03 17:22:56.5063 19397/7fbef7cd1700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-03 17:22:56.5063 19397/7fbef7cd1700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-03 17:22:56.5064 19397/7fbef84d2700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-03 17:22:56.5065 19397/7fbefecdf7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-03 17:22:56.7323 19391/7ff1a5f0e7c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-06 10:22:08.2115 20773/7fd505e517c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-06 10:22:08.2165 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-06 10:22:08.2166 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-06 10:22:08.2186 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 20776
+[ 2017-02-06 10:22:08.2239 20782/7fc158f8e7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-06 10:22:08.2244 20782/7fc158f8e7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 20782
+App 20816 stdout: 
+[ 2017-02-06 10:22:11.4406 20776/7f4858e2c700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 20833 stdout: 
+App 20847 stdout: 
+
+[ 2017-02-06 10:22:37.4612 20776/7f4852727700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:22:37.4612 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:22:37.4709 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 20833, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:22:37.4709 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 20847, application /root/ruby_with_mysql/public (development)
+
+[ 2017-02-06 10:22:37.4710 20782/7fc152781700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:22:37.4710 20776/7f4851f26700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:22:37.4710 20776/7f4851f26700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-06 10:22:37.4710 20782/7fc158f8e7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:22:37.4711 20782/7fc151f80700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:22:37.4711 20782/7fc151f80700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-06 10:22:37.4713 20776/7f4852727700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-06 10:22:37.4713 20776/7f4852727700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-02-06 10:22:37.4713 20782/7fc152781700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-06 10:22:37.4714 20782/7fc158f8e7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-06 10:22:37.4722 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 20833, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:22:37.4722 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 20847, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:22:37.7002 20776/7f4858efa7c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-06 10:24:42.4332 20903/7fec3085d7c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-06 10:24:42.4386 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-06 10:24:42.4387 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-06 10:24:42.4407 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 20906
+[ 2017-02-06 10:24:42.4460 20912/7f9187d037c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-06 10:24:42.4466 20912/7f9187d037c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 20912
+App 20946 stdout: 
+[ 2017-02-06 10:24:45.4049 20906/7fa9a77e7700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 20963 stdout: 
+App 20970 stdout: 
+
+[ 2017-02-06 10:25:25.9104 20906/7fa9a10e2700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:25:25.9105 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:25:25.9105 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 20963, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:25:25.9105 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 20970, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:25:25.9105 20906/7fa9a08e1700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:25:25.9105 20906/7fa9a08e1700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-06 10:25:25.9106 20906/7fa9a10e2700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-06 10:25:25.9107 20906/7fa9a10e2700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-02-06 10:25:25.9107 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 20963, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:25:25.9107 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 20970, application /root/ruby_with_mysql/public (development)
+
+[ 2017-02-06 10:25:25.9145 20912/7f91814f6700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:25:25.9145 20912/7f9187d037c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:25:25.9145 20912/7f9180cf5700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:25:25.9146 20912/7f9180cf5700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-06 10:25:25.9147 20912/7f91814f6700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-06 10:25:25.9148 20912/7f9187d037c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-06 10:25:26.1410 20906/7fa9a78b57c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-06 10:26:04.7199 21037/7fc2f84f57c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-06 10:26:04.7250 21040/7fb2991377c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-06 10:26:04.7251 21040/7fb2991377c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-06 10:26:04.7273 21040/7fb2991377c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 21040
+[ 2017-02-06 10:26:04.7327 21046/7facac0147c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-06 10:26:04.7332 21046/7facac0147c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 21046
+App 21080 stdout: 
+[ 2017-02-06 10:26:07.7170 21040/7fb299069700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 21097 stdout: 
+
+[ 2017-02-06 10:26:17.2864 21040/7fb292964700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:26:17.2864 21040/7fb2991377c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:26:17.2864 21040/7fb2991377c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21097, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:26:17.2865 21040/7fb292163700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:26:17.2865 21040/7fb292163700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-06 10:26:17.2865 21040/7fb292964700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-06 10:26:17.2866 21040/7fb292964700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-02-06 10:26:17.2866 21040/7fb2991377c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21097, application /root/ruby_with_mysql/public (development)
+
+[ 2017-02-06 10:26:17.2899 21046/7faca5807700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:26:17.2899 21046/7facac0147c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:26:17.2899 21046/7faca5006700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:26:17.2899 21046/7faca5006700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-06 10:26:17.2901 21046/7faca5807700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-06 10:26:17.2901 21046/7facac0147c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-06 10:26:17.5165 21040/7fb2991377c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-06 10:26:34.5987 21152/7fa2635987c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-06 10:26:34.6038 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-06 10:26:34.6039 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-06 10:26:34.6059 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 21155
+[ 2017-02-06 10:26:34.6113 21161/7f5ae29577c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-06 10:26:34.6118 21161/7f5ae29577c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 21161
+App 21195 stdout: 
+[ 2017-02-06 10:26:37.5917 21155/7f97cf199700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 21212 stdout: 
+App 21219 stdout: 
+
+[ 2017-02-06 10:26:42.6932 21155/7f97c8a94700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:26:42.6932 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:26:42.6932 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21212, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:26:42.6932 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21219, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:26:42.6932 21155/7f97c3fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:26:42.6932 21155/7f97c3fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-06 10:26:42.6933 21155/7f97c8a94700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-06 10:26:42.6933 21155/7f97c8a94700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-02-06 10:26:42.6934 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21212, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:26:42.6934 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21219, application /root/ruby_with_mysql/public (development)
+
+[ 2017-02-06 10:26:42.6985 21161/7f5adc14a700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:26:42.6986 21161/7f5ae29577c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:26:42.6987 21161/7f5adb949700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:26:42.6987 21161/7f5adb949700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-06 10:26:42.6988 21161/7f5adc14a700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-06 10:26:42.6989 21161/7f5ae29577c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-06 10:26:42.9221 21155/7f97cf2677c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-02-06 10:26:55.7339 21272/7f3dc20e37c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-02-06 10:26:55.7391 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-02-06 10:26:55.7391 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-02-06 10:26:55.7412 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 21275
+[ 2017-02-06 10:26:55.7469 21281/7ff5e36127c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-02-06 10:26:55.7474 21281/7ff5e36127c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 21281
+App 21315 stdout: 
+[ 2017-02-06 10:26:58.7231 21275/7f5edb6d7700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 21332 stdout: 
+App 21339 stdout: 
+
+[ 2017-02-06 10:27:10.7730 21275/7f5ed4fd2700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:27:10.7731 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:27:10.7731 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21332, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:27:10.7731 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21339, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:27:10.7731 21275/7f5ecffff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:27:10.7731 21275/7f5ecffff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-02-06 10:27:10.7732 21275/7f5ed4fd2700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-02-06 10:27:10.7732 21275/7f5ed4fd2700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-02-06 10:27:10.7733 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21332, application /root/ruby_with_mysql/public (development)
+[ 2017-02-06 10:27:10.7733 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 21339, application /root/ruby_with_mysql/public (development)
+
+[ 2017-02-06 10:27:10.7768 21281/7ff5dce05700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-02-06 10:27:10.7769 21281/7ff5e36127c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-02-06 10:27:10.7769 21281/7ff5d7fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-02-06 10:27:10.7769 21281/7ff5d7fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-02-06 10:27:10.7771 21281/7ff5dce05700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-02-06 10:27:10.7772 21281/7ff5e36127c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-02-06 10:27:11.0051 21275/7f5edb7a57c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished

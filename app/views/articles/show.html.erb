@@ -2,18 +2,19 @@
 </br>
 
 <% @article=@articles %>
-<table >
+<table border="3" color="green">
 <tr>
 
 <th> Title </th>
-<th>Article</th>
-<th colspan="2.5" ></th></tr>
+<th >Article</th>
+<th  ></th></tr>
 <% @article.each do |article3| %> 
-<tr><td><%= article3.title %></td>
-<td><%= article3.text %></td></tr>
-</br>
-</table>
+<tr>
+<td ><%= article3.title %></td>
+<td ><%= article3.text %></td>
+</tr>
 <%end %>
+</table>
 </br>
 
 <a href="new" > create new article </a>

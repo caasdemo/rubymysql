@@ -1,0 +1,96 @@
+[ 2017-01-03 11:24:53.8366 14983/7f80b38cc7c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-01-03 11:24:53.8417 14986/7f98b8cff7c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-01-03 11:24:53.8418 14986/7f98b8cff7c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-01-03 11:24:53.8440 14986/7f98b8cff7c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 14986
+[ 2017-01-03 11:24:53.8512 14992/7f33c5a597c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-01-03 11:24:53.8519 14992/7f33c5a597c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 14992
+2017/01/03 11:24:55 [error] 15006#0: *4 "/root/ruby_with_mysql/app/views/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2017/01/03 11:24:56 [error] 15006#0: *5 "/root/ruby_with_mysql/app/views/public/index.html" is not found (2: No such file or directory), client: 192.168.54.11, server: _, request: "GET / HTTP/1.1", host: "192.168.54.115:3000"
+[ 2017-01-03 11:24:56.6205 14986/7f98b8c31700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+2017/01/03 11:24:58 [error] 15006#0: *5 "/root/ruby_with_mysql/app/views/public/index.html" is not found (2: No such file or directory), client: 192.168.54.11, server: _, request: "GET / HTTP/1.1", host: "192.168.54.115:3000"
+
+[ 2017-01-03 11:25:03.5809 14986/7f98b252c700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:25:03.5809 14986/7f98b8cff7c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:25:03.5810 14986/7f98b1d2b700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:25:03.5810 14986/7f98b1d2b700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-01-03 11:25:03.5811 14986/7f98b252c700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-01-03 11:25:03.5811 14986/7f98b252c700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-01-03 11:25:03.5815 14992/7f33bf24c700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:25:03.5815 14992/7f33c5a597c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:25:03.5816 14992/7f33bea4b700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:25:03.5816 14992/7f33bea4b700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-01-03 11:25:03.5816 14992/7f33bf24c700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-01-03 11:25:03.5817 14992/7f33c5a597c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-01-03 11:25:03.6026 14986/7f98b8cff7c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-01-03 11:25:57.4626 15066/7fd08e8167c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-01-03 11:25:57.4671 15069/7fe7202d97c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-01-03 11:25:57.4672 15069/7fe7202d97c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-01-03 11:25:57.4692 15069/7fe7202d97c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 15069
+[ 2017-01-03 11:25:57.4740 15075/7f08344347c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-01-03 11:25:57.4744 15075/7f08344347c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 15075
+2017/01/03 11:25:59 [error] 15091#0: *4 "/root/ruby_with_mysql/app/views/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2017/01/03 11:26:00 [error] 15091#0: *5 "/root/ruby_with_mysql/app/views/public/index.html" is not found (2: No such file or directory), client: 192.168.54.11, server: _, request: "GET / HTTP/1.1", host: "192.168.54.115:3000"
+[ 2017-01-03 11:26:00.2491 15069/7fe72020b700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+
+[ 2017-01-03 11:26:07.1570 15069/7fe719b06700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:26:07.1570 15069/7fe7202d97c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:26:07.1571 15069/7fe719305700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:26:07.1571 15069/7fe719305700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-01-03 11:26:07.1572 15069/7fe719b06700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-01-03 11:26:07.1572 15069/7fe719b06700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-01-03 11:26:07.1576 15075/7f082dc27700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:26:07.1576 15075/7f08344347c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:26:07.1576 15075/7f082d426700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:26:07.1576 15075/7f082d426700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-01-03 11:26:07.1577 15075/7f082dc27700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-01-03 11:26:07.1578 15075/7f08344347c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-01-03 11:26:07.1785 15069/7fe7202d97c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-01-03 11:26:26.9039 15150/7f90e389e7c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-01-03 11:26:26.9084 15153/7f373fa3f7c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-01-03 11:26:26.9085 15153/7f373fa3f7c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-01-03 11:26:26.9105 15153/7f373fa3f7c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 15153
+[ 2017-01-03 11:26:26.9154 15159/7f3affd457c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-01-03 11:26:26.9158 15159/7f3affd457c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 15159
+[ 2017-01-03 11:26:29.7100 15153/7f373f971700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+2017/01/03 11:26:30 [error] 15173#0: *4 open() "/root/ruby_with_mysql/app/views/public/articles/new" failed (2: No such file or directory), client: 192.168.54.11, server: _, request: "GET /articles/new HTTP/1.1", host: "192.168.54.115:3000", referrer: "http://192.168.54.115:3000/"
+
+[ 2017-01-03 11:27:15.9165 15153/7f373926c700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:27:15.9165 15153/7f373fa3f7c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:27:15.9165 15153/7f3738a6b700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:27:15.9165 15153/7f3738a6b700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-01-03 11:27:15.9166 15153/7f373926c700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-01-03 11:27:15.9166 15153/7f373926c700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-01-03 11:27:15.9170 15159/7f3af9538700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:27:15.9171 15159/7f3affd457c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:27:15.9171 15159/7f3af8d37700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:27:15.9171 15159/7f3af8d37700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-01-03 11:27:15.9172 15159/7f3af9538700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-01-03 11:27:15.9172 15159/7f3affd457c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-01-03 11:27:15.9380 15153/7f373fa3f7c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-01-03 11:28:31.4072 15232/7ff1eff487c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-01-03 11:28:31.4119 15235/7f56bb64e7c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-01-03 11:28:31.4119 15235/7f56bb64e7c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-01-03 11:28:31.4139 15235/7f56bb64e7c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 15235
+[ 2017-01-03 11:28:31.4190 15241/7fb683d017c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-01-03 11:28:31.4194 15241/7fb683d017c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 15241
+2017/01/03 11:28:33 [error] 15255#0: *5 open() "/root/ruby_with_mysql/app/views/public/articles/new" failed (2: No such file or directory), client: 192.168.54.11, server: _, request: "GET /articles/new HTTP/1.1", host: "192.168.54.115:3000", referrer: "http://192.168.54.115:3000/"
+[ 2017-01-03 11:28:34.1861 15235/7f56bb580700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+2017/01/03 11:28:39 [error] 15255#0: *5 open() "/root/ruby_with_mysql/app/views/public/articles/new" failed (2: No such file or directory), client: 192.168.54.11, server: _, request: "GET /articles/new HTTP/1.1", host: "192.168.54.115:3000", referrer: "http://192.168.54.115:3000/"
+
+[ 2017-01-03 11:28:41.9486 15235/7f56b4e7b700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:28:41.9486 15235/7f56bb64e7c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:28:41.9486 15235/7f56affff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:28:41.9486 15235/7f56affff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-01-03 11:28:41.9487 15235/7f56b4e7b700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-01-03 11:28:41.9487 15235/7f56b4e7b700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2017-01-03 11:28:41.9492 15241/7fb67d4f4700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-03 11:28:41.9492 15241/7fb683d017c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-03 11:28:41.9493 15241/7fb67ccf3700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-01-03 11:28:41.9493 15241/7fb67ccf3700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-01-03 11:28:41.9493 15241/7fb67d4f4700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-01-03 11:28:41.9494 15241/7fb683d017c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-01-03 11:28:41.9693 15235/7f56bb64e7c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished

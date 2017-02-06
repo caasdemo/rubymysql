@@ -13944,3 +13944,544 @@ Served asset /articles.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 192.168.54.11 at 2016-12-30 12:58:19 +0530
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-01-02 15:30:42 +0530
+Processing by ArticlesController#new as HTML
+
+
+Started GET "/" for 192.168.54.11 at 2017-01-02 15:30:42 +0530
+Processing by ArticlesController#new as HTML
+Connecting to database specified by database.yml
+  Rendered articles/new.html.erb within layouts/application (33.8ms)
+  Rendered articles/new.html.erb within layouts/application (11.0ms)
+
+
+Started GET "/" for 192.168.54.11 at 2017-01-02 15:30:42 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 172.7ms (Views: 148.5ms | ActiveRecord: 0.6ms)
+Completed 200 OK in 261.5ms (Views: 228.4ms | ActiveRecord: 2.1ms)
+Completed 200 OK in 39.1ms (Views: 28.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-01-02 15:30:42 +0530
+
+
+Started GET "/assets/application.css?body=1" for 192.168.54.11 at 2017-01-02 15:30:42 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.54.11 at 2017-01-02 15:30:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.54.11 at 2017-01-02 15:30:42 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-01-02 15:30:42 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.54.11 at 2017-01-02 15:30:42 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+Connecting to database specified by database.yml
+Served asset /jquery_ujs.js - 304 Not Modified (217ms)
+Served asset /jquery.js - 304 Not Modified (221ms)
+
+
+Started POST "/articles" for 192.168.54.11 at 2017-01-02 15:31:05 +0530
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lmWOqUfwHedMwk8VOpHeEtYJQFPpZS7gUaL1+web7dI=", "article"=>{"title"=>"testapp", "text"=>"this the command testing"}, "commit"=>"Save Article"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (67.2ms)[0m  INSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 02 Jan 2017 10:01:05 UTC +00:00], ["text", "this the command testing"], ["title", "testapp"], ["updated_at", Mon, 02 Jan 2017 10:01:05 UTC +00:00]]
+  [1m[36m (28.6ms)[0m  [1mcommit transaction[0m
+  Rendered articles/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 152.9ms (Views: 47.6ms | ActiveRecord: 95.9ms)
+
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-01-02 15:31:06 +0530
+
+Started GET "/assets/jquery.js?body=1" for 192.168.54.11 at 2017-01-02 15:31:06 +0530
+Served asset /articles.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-01-02 15:31:06 +0530
+
+Started GET "/assets/application.css?body=1" for 192.168.54.11 at 2017-01-02 15:31:06 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.54.11 at 2017-01-02 15:31:06 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+Served asset /articles.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.54.11 at 2017-01-02 15:31:06 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-01-02 15:31:07 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5.5ms (Views: 4.0ms | ActiveRecord: 0.1ms)
+
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.54.11 at 2017-01-02 15:31:07 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-01-02 15:31:07 +0530
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.54.11 at 2017-01-02 15:31:07 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.54.11 at 2017-01-02 15:31:07 +0530
+
+Started GET "/assets/application.css?body=1" for 192.168.54.11 at 2017-01-02 15:31:07 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-01-02 15:31:07 +0530
+Served asset /articles.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-01-03 11:28:56 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (3.9ms)
+Compiled articles.css  (2ms)  (pid 15374)
+Compiled application.css  (4ms)  (pid 15374)
+Compiled jquery.js  (2ms)  (pid 15374)
+Compiled jquery_ujs.js  (0ms)  (pid 15374)
+Compiled articles.js  (33ms)  (pid 15374)
+Compiled application.js  (42ms)  (pid 15374)
+Completed 200 OK in 73.0ms (Views: 63.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 192.168.54.11 at 2017-01-03 11:29:00 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3.7ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-01-03 11:29:00 +0530
+Served asset /articles.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.54.11 at 2017-01-03 11:29:00 +0530
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.54.11 at 2017-01-03 11:29:00 +0530
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-01-03 11:29:00 +0530
+Served asset /articles.js - 200 OK (0ms)
+Connecting to database specified by database.yml
+
+
+Started POST "/articles" for 192.168.54.11 at 2017-01-03 11:29:25 +0530
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ha8Ei0BnIsrUkGlzzWCZCbSUyqc4hJ7kaa8GZzSABg=", "article"=>{"title"=>"testing app", "text"=>"this is to test the production environment"}, "commit"=>"Save Article"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 03 Jan 2017 05:59:25 UTC +00:00], ["text", "this is to test the production environment"], ["title", "testing app"], ["updated_at", Tue, 03 Jan 2017 05:59:25 UTC +00:00]]
+  [1m[36m (220.3ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 226.7ms
+
+ActionView::MissingTemplate (Missing template articles/create, application/create with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/root/ruby_with_mysql/app/views"
+):
+  app/controllers/articles_controller.rb:10:in `create'
+
+
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-3.2.22.2/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-02-02 12:47:38 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 74.8ms (Views: 64.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-02-02 12:47:40 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16.2ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-02 12:47:40 +0530
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-02-02 12:47:50 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13.9ms (Views: 11.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-02 12:47:50 +0530
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.54.11 at 2017-02-02 12:47:50 +0530
+Served asset /jquery.js - 200 OK (50ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.54.11 at 2017-02-02 12:47:50 +0530
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-02 12:47:50 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-02-03 17:22:36 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 168.7ms (Views: 122.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 192.168.54.11 at 2017-02-03 17:22:41 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8.2ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-03 17:22:41 +0530
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.54.11 at 2017-02-03 17:22:41 +0530
+Served asset /jquery.js - 200 OK (36ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.54.11 at 2017-02-03 17:22:41 +0530
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-03 17:22:41 +0530
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/show" for 192.168.54.11 at 2017-02-03 17:22:45 +0530
+
+ActionController::RoutingError (No route matches [GET] "/show"):
+  actionpack (3.2.22.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.2) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.2) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.2) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.2) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.2) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.2) lib/rails/application.rb:231:in `call'
+  railties (3.2.22.2) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-3.2.22.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/show" for 192.168.54.11 at 2017-02-03 17:22:51 +0530
+
+ActionController::RoutingError (No route matches [GET] "/show"):
+  actionpack (3.2.22.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.2) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.2) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.2) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.2) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.2) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.2) lib/rails/application.rb:231:in `call'
+  railties (3.2.22.2) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-3.2.22.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-02-06 10:22:14 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 191.2ms (Views: 93.2ms | ActiveRecord: 58.8ms)
+
+
+Started GET "/" for 192.168.54.11 at 2017-02-06 10:22:15 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7.9ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:22:15 +0530
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.54.11 at 2017-02-06 10:22:15 +0530
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.54.11 at 2017-02-06 10:22:15 +0530
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:22:15 +0530
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started POST "/articles" for 192.168.54.11 at 2017-02-06 10:22:28 +0530
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00zA0Bk/6WoVuUICVz2wUM3LNS63K5JaBEdwSpmt1b8=", "article"=>{"title"=>"test this", "text"=>"this is just test\r\n"}, "commit"=>"Save Article"}
+  [1m[36m (33.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (187.5ms)[0m  INSERT INTO `articles` (`created_at`, `text`, `title`, `updated_at`) VALUES ('2017-02-06 04:52:28', 'this is just test\r\n', 'test this', '2017-02-06 04:52:28')
+  [1m[36m (31.3ms)[0m  [1mCOMMIT[0m
+  Rendered articles/create.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 370.1ms (Views: 16.3ms | ActiveRecord: 252.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:22:28 +0530
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:22:28 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-02-06 10:22:30 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[35mArticle Load (0.9ms)[0m  SELECT `articles`.* FROM `articles` 
+  Rendered articles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32.7ms (Views: 15.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:22:30 +0530
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:22:30 +0530
+Served asset /articles.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-02-06 10:24:45 +0530
+Connecting to database specified by database.yml
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 55.2ms (Views: 33.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-02-06 10:24:45 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT `articles`.* FROM `articles` [0m
+  Rendered articles/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28.3ms (Views: 13.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:24:45 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:24:45 +0530
+Served asset /articles.css - 304 Not Modified (1ms)
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/create" for 192.168.54.11 at 2017-02-06 10:24:56 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"create"}
+  [1m[36mArticle Load (0.7ms)[0m  [1mSELECT `articles`.* FROM `articles` [0m
+  Rendered articles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10.4ms (Views: 4.8ms | ActiveRecord: 0.7ms)
+
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:24:56 +0530
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:24:57 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/articles/create" for 192.168.54.11 at 2017-02-06 10:25:00 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"create"}
+  [1m[35mArticle Load (0.4ms)[0m  SELECT `articles`.* FROM `articles` 
+  Rendered articles/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4.6ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:25:00 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:25:00 +0530
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/articles/new" for 192.168.54.11 at 2017-02-06 10:25:05 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4.8ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:25:05 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:25:05 +0530
+Served asset /articles.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-02-06 10:26:07 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 28.7ms (Views: 16.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-02-06 10:26:11 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mArticle Load (0.7ms)[0m  [1mSELECT `articles`.* FROM `articles` [0m
+  Rendered articles/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12.3ms (Views: 8.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:26:11 +0530
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.54.11 at 2017-02-06 10:26:11 +0530
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.54.11 at 2017-02-06 10:26:11 +0530
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:26:11 +0530
+Served asset /articles.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-02-06 10:26:37 +0530
+Connecting to database specified by database.yml
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 53.7ms (Views: 32.4ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-02-06 10:26:37 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT `articles`.* FROM `articles` [0m
+  Rendered articles/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26.2ms (Views: 12.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:26:38 +0530
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:26:38 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-02-06 10:26:58 +0530
+Processing by ArticlesController#new as HTML
+Connecting to database specified by database.yml
+  Rendered articles/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 52.6ms (Views: 31.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-02-06 10:26:59 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT `articles`.* FROM `articles` [0m
+  Rendered articles/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25.2ms (Views: 12.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:26:59 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:26:59 +0530
+Served asset /articles.css - 304 Not Modified (2ms)
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/show" for 192.168.54.11 at 2017-02-06 10:27:01 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mArticle Load (0.8ms)[0m  [1mSELECT `articles`.* FROM `articles` [0m
+  Rendered articles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8.6ms (Views: 5.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:27:01 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:27:01 +0530
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/articles/new" for 192.168.54.11 at 2017-02-06 10:27:05 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5.2ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 192.168.54.11 at 2017-02-06 10:27:05 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 192.168.54.11 at 2017-02-06 10:27:05 +0530
+Served asset /articles.js - 304 Not Modified (0ms)
+Served asset /articles.css - 304 Not Modified (0ms)
